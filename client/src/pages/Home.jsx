@@ -38,7 +38,7 @@ function Home() {
                 variant="outline"
                 className="border-gray-700 text-gray-300 hover:bg-gray-900 hover:text-white px-8 py-6 text-lg bg-transparent"
               >
-                See How It Works
+                <a href="#how-it-works">See How It Works</a>
               </Button>
             </div>
           </div>
@@ -90,7 +90,7 @@ function Home() {
       </section>
 
       {/* How It Works */}
-      <section className="container mx-auto px-4 py-20 border-t border-gray-900">
+      <section className="container mx-auto px-4 py-20 border-t border-gray-900" id="how-it-works">
         <h2 className="text-3xl lg:text-4xl font-bold text-center mb-16 text-balance">How It Works</h2>
         <div className="grid md:grid-cols-3 gap-8 lg:gap-12 max-w-5xl mx-auto">
           <div className="text-center space-y-4">
